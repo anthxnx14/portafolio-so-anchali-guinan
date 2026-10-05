@@ -2,15 +2,15 @@
 # Deber 1 - Script de inventario de hardware
 
 **Integrantes:**
-- [Tu Nombre]
-- [Nombre de tu compañero]
+- [Jonatghan Guiñan]
+- [Anthony Anchali]
 
 ## Descripción
 En esta carpeta se encuentran los scripts de la Semana 01 desarrollados para automatizar la recolección de información de hardware (CPU, RAM, Discos, etc.). Los scripts generan un reporte y lo guardan en un archivo de texto con el formato `inventario_<equipo>.txt`.
 
 ---
 
-## 🪟 Versión para Windows (PowerShell)
+##  Versión para Windows (PowerShell)
 El archivo `inventario.ps1` contiene el script diseñado para ejecutarse en el SO Windows.
 
 **Instrucciones de uso:**
