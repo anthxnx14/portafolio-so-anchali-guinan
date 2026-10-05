@@ -14,8 +14,8 @@ En esta carpeta se encuentran los scripts de la Semana 01 desarrollados para aut
 El archivo `inventario.ps1` contiene el script diseñado para ejecutarse en el SO Windows.
 
 **Instrucciones de uso:**
-1. Abre una consola de PowerShell.
-2. Navega hasta la carpeta `semana01/`.
-3. Ejecuta el script con el siguiente comando:
+1. Abrir una consola de PowerShell.
+2. Navegar hasta la carpeta `semana1/`.
+3. Ejecutar el script con el siguiente comando:
    ```powershell
    .\inventario.ps1
