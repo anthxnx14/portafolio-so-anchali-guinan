@@ -7,6 +7,7 @@ $salida = "inventario_$env:COMPUTERNAME.txt"
 $cpu = Get-CimInstance Win32_Processor
 $os = Get-CimInstance Win32_OperatingSystem
 $ram = Get-CimInstance Win32_PhysicalMemory
+$ip = Get
 
 # 3. Todo lo que esté dentro de las llaves { } se irá al archivo .txt
 & {
@@ -25,6 +26,8 @@ $ram = Get-CimInstance Win32_PhysicalMemory
     # Usamos Get-PhysicalDisk para mostrar Nombre (FriendlyName), Tipo (MediaType) y Tamaño (Size)
     Get-PhysicalDisk | Format-Table FriendlyName, MediaType, Size
     
+    # Comando para el extra de la nota
+
 } | Out-File $salida
 
 # 4. Mensaje en pantalla para avisar que terminó
