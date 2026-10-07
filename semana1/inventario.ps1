@@ -7,7 +7,7 @@ $salida = "inventario_$env:COMPUTERNAME.txt"
 $cpu = Get-CimInstance Win32_Processor
 $os = Get-CimInstance Win32_OperatingSystem
 $ram = Get-CimInstance Win32_PhysicalMemory
-$ip = Get
+$ip = Get-CimInstance 
 
 # 3. Todo lo que esté dentro de las llaves { } se irá al archivo .txt
 & {
@@ -16,7 +16,7 @@ $ip = Get
     
     "== CPU"
     # Completamos lo que estaba "Pendiente" usando las propiedades del CPU
-    $cpu | Format-List Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed, L2CacheSize, L3CacheSize
+    $cpu | Format-List Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed, L1CacheSize, L2CacheSize, L3CacheSize
     
     "== RAM"
     # Usamos el nuevo comando de la imagen para la RAM
@@ -27,6 +27,7 @@ $ip = Get
     Get-PhysicalDisk | Format-Table FriendlyName, MediaType, Size
     
     # Comando para el extra de la nota
+
 
 } | Out-File $salida
 
