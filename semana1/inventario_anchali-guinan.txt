@@ -1,5 +1,5 @@
 DESKTOP-TGCDG8F
-Sun Oct  4 17:53:15 -05 2026
+Wed Oct  7 22:03:45 -05 2026
 PRETTY_NAME="Ubuntu 24.04.5 LTS"
 NAME="Ubuntu"
 VERSION_ID="24.04"
@@ -59,7 +59,7 @@ Vulnerability Tsx async abort:           Not affected
 Vulnerability Vmscape:                   Not affected
 cpu MHz		: 2794.539
                total        used        free      shared  buff/cache   available
-Mem:           6.7Gi       508Mi       6.1Gi       4.1Mi       225Mi       6.2Gi
+Mem:           6.7Gi       498Mi       6.2Gi       4.0Mi       165Mi       6.2Gi
 Swap:          2.0Gi          0B       2.0Gi
 NAME MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 sda    8:0    0 722.9M  1 disk 
@@ -67,6 +67,5 @@ sdb    8:16   0  96.5M  1 disk
 sdc    8:32   0     2G  0 disk [SWAP]
 sdd    8:48   0     1T  0 disk /mnt/wslg/distro
                                /
-sde    8:64   0     1T  0 disk 
 lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128 
-eth0             UP             172.28.45.151/20 fe80::215:5dff:fe40:30d6/64 
+eth0             UP             172.28.45.151/20 fe80::215:5dff:fe40:3b72/64 
