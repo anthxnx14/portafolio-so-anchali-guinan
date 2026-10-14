@@ -1,0 +1,22 @@
+== Equipo: LAPTOP-1730OMNG 2026-10-14
+== Arquitectura: x86_64
+Byte Order:                              Little Endian
+== Cachés
+NAME ONE-SIZE ALL-SIZE WAYS TYPE        LEVEL  SETS PHY-LINE COHERENCY-SIZE
+L1d       48K     480K   12 Data            1    64        1             64
+L1i       32K     320K    8 Instruction     1    64        1             64
+L2       1.3M    12.5M   10 Unified         2  2048        1             64
+L3        24M      24M   12 Unified         3 32768        1             64
+== RAM y swap
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       615Mi        14Gi       4.1Mi       215Mi        14Gi
+Swap:          4.0Gi          0B       4.0Gi
+== Discos
+NAME ROTA   SIZE
+sda     1 722.9M
+sdb     1  96.5M
+sdc     1     4G
+sdd     1     1T
+== Conjuntos L1d ==
+S = C / (L * A)
+S = 49152 / (64 * 12) = 64 conjuntos
