@@ -16,7 +16,7 @@ $ip = Get-NetIPAddress -AddressFamily IPv4
     
     "== CPU"
     # Completamos las propiedades del CPU
-    $cpu | Format-List Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed, L1CacheSize, L2CacheSize, L3CacheSize
+    $cpu | Format-List Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed, L2CacheSize, L3CacheSize
     
     "== RAM"
     # Usamos el nuevo comando para la RAM
