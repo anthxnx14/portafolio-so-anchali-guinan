@@ -1,0 +1,35 @@
+Informe de arranque · localhost · 2026-10-24 17:59
+
+=== 1 · Sistema operativo, versión y núcleo ===
+Sistema: AlmaLinux 10.2 (Lavender Lion)
+Núcleo: 6.12.0-211.7.3.el10_2.x86_64 (x86_64)
+
+=== 2 · Último arranque y tiempo encendido ===
+Arrancó: 2026-10-24 17:42:40
+Encendida: up 16 minutes
+
+=== 3 · Desglose del arranque (systemd-analyze) ===
+Startup finished in 2.293s (kernel) + 7.139s (initrd) + 14.036s (userspace) = 23.469s 
+graphical.target reached after 13.638s in userspace.
+
+=== 4 · Las 5 unidades que más tardaron en arrancar ===
+8.472s plymouth-quit-wait.service
+7.182s sys-module-fuse.device
+7.084s dev-ttyS3.device
+7.084s sys-devices-platform-serial8250-serial8250:0-serial8250:0.3-tty-ttyS3.device
+7.045s dev-ttyS1.device
+
+=== 5 · Módulos del núcleo cargados ===
+Total de módulos cargados: 103
+Los 5 módulos más grandes:
+xfs                  3338240  2
+btrfs                2256896  0
+cxgb4                 684032  1 cxgb4i
+zstd_compress         528384  1 btrfs
+libata                512000  4 ata_piix,libahci,ahci,ata_generic
+
+=== 6 · Target por defecto y servicios fallidos ===
+Target por defecto: graphical.target
+Servicios fallidos:
+vboxadd-service.service loaded failed failed vboxadd-service.service
+vboxadd.service         loaded failed failed vboxadd.service
