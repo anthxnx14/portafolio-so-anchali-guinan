@@ -7,14 +7,14 @@ Comandos para identificar la distribución de Linux instalada y la versión exac
 
 *   `cat /etc/os-release`: Muestra información detallada sobre la distribución del sistema operativo (nombre, versión, ID). 
     *   *Ejemplo de uso:* `. /etc/os-release && echo $PRETTY_NAME` (Carga las variables del archivo para usarlas directamente).
-*   `uname -r`: Muestra la versión exacta del núcleo (kernel) de Linux (ej. `6.12.0-211.7.3.el10_2.x86_64`).
-*   `uname -m`: Muestra la arquitectura de hardware de la máquina (ej. `x86_64`).
+*   `uname -r`: Muestra la versión exacta del núcleo (kernel) de Linux.
+*   `uname -m`: Muestra la arquitectura de hardware de la máquina.
 
 ## 2. Tiempo de Encendido y Último Arranque
 Comandos para consultar cuánto tiempo lleva la máquina encendida de forma ininterrumpida.
 
-*   `uptime -s`: Muestra la fecha y hora exacta (timestamp) en la que el sistema arrancó por última vez (ej. `2026-10-24 17:42:40`).
-*   `uptime -p`: Muestra el tiempo total transcurrido desde el encendido en formato amigable (ej. `up 16 minutes`).
+*   `uptime -s`: Muestra la fecha y hora exacta (timestamp) en la que el sistema arrancó por última vez.
+*   `uptime -p`: Muestra el tiempo total transcurrido desde el encendido en formato amigable.
 
 ## 3. Análisis del Arranque (systemd)
 Comandos del gestor de servicios `systemd` para diagnosticar el rendimiento del encendido.
@@ -44,6 +44,6 @@ Comandos para interactuar con los controladores cargados en la memoria del siste
 Herramientas útiles para automatizar tareas en la terminal.
 
 *   `hostname -s`: Muestra el nombre corto de la computadora en la red.
-*   `date +%Y%m%d_%H%M`: Genera una marca de tiempo con año, mes, día, hora y minuto (ej. `20261024_1759`).
+*   `date +%Y%m%d_%H%M`: Genera una marca de tiempo con año, mes, día, hora y minuto.
 *   `command -v <comando>`: Verifica de forma silenciosa si un comando o programa está instalado en el sistema antes de intentar ejecutarlo.
 *   `tee <archivo>`: Lee de la entrada estándar y escribe simultáneamente en la pantalla (consola) y en el archivo especificado.
