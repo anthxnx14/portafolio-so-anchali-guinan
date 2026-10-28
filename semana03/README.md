@@ -17,6 +17,7 @@ Funciona sin administrador (no requiere `sudo`). Si alguna herramienta como `sys
 El script `informe_arranque.ps1` consulta el sistema operativo, el último arranque, los tiempos de inicio, los servicios, los controladores y el estado del inicio rápido.
 
 
+
 ### Cómo ejecutarlo
 1. Abrir PowerShell en la carpeta `semana03`.
 2. Ejecutar `.\informe_arranque.ps1`.
