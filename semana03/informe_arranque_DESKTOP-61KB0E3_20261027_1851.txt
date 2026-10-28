@@ -1,0 +1,33 @@
+﻿Informe de arranque · DESKTOP-61KB0E3 · 2026-10-27 18:51
+
+=== 1 · Sistema operativo, versión y compilación ===
+Sistema: Microsoft Windows 10 Pro
+Versión: 10.0.19045
+Compilación: 19045
+Arquitectura: 64 bits
+
+=== 2 · Último arranque y tiempo encendido ===
+Último arranque: 10/27/2026 16:06:44
+Tiempo encendido: 0 días, 2 horas y 45 minutos
+
+=== 3 · Desglose del arranque ===
+Firmware: 0 ms (0,000 s)
+Aviso: se necesita administrador para consultar el evento 100. El informe continúa.
+
+=== 4 · Servicios y demoras del arranque ===
+Servicios en ejecución: 95
+Servicios automáticos detenidos: 6
+Hasta 5 servicios automáticos detenidos:
+- DoSvc: Optimización de distribución
+- edgeupdate: Microsoft Edge Update Service (edgeupdate)
+- gpsvc: Cliente de directiva de grupo
+- MapsBroker: Administrador de mapas descargados
+- SecondScreenService: Second screen
+Esta lista muestra estados; no mide tiempos de arranque.
+
+=== 5 · Controladores (drivers) ===
+Controladores listados por driverquery: 377
+Controladores en ejecución: 132
+
+=== 6 · Inicio rápido ===
+HiberbootEnabled = 0: inicio rápido desactivado.

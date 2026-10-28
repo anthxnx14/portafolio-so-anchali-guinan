@@ -1,4 +1,4 @@
-# Ayuda Memoria: Comandos de Administración OS (Linux)
+﻿# Ayuda Memoria: Comandos de Administración OS (Linux y Windows)
 
 Esta guía resume los comandos utilizados en el script `informe_arranque.sh` para extraer información del sistema operativo, el hardware, los tiempos de arranque y los módulos del núcleo en un entorno Linux.
 
@@ -47,3 +47,14 @@ Herramientas útiles para automatizar tareas en la terminal.
 *   `date +%Y%m%d_%H%M`: Genera una marca de tiempo con año, mes, día, hora y minuto.
 *   `command -v <comando>`: Verifica de forma silenciosa si un comando o programa está instalado en el sistema antes de intentar ejecutarlo.
 *   `tee <archivo>`: Lee de la entrada estándar y escribe simultáneamente en la pantalla (consola) y en el archivo especificado.
+
+## Windows (PowerShell)
+
+El script `informe_arranque.ps1` consulta el sistema operativo, el último arranque, los tiempos de inicio, los servicios, los controladores y el estado del inicio rápido.
+
+### Cómo ejecutarlo
+1. Abrir PowerShell en la carpeta `semana03`.
+2. Ejecutar `.\informe_arranque.ps1`.
+3. El informe queda guardado en un archivo `.txt` con el nombre del equipo y la fecha.
+
+Funciona sin administrador. Si no tiene permiso para consultar el evento 100, muestra un aviso y continúa.
