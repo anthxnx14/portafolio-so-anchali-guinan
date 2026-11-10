@@ -22,6 +22,6 @@ Los scripts no requieren permisos de administrador (root/elevados) para ejecutar
 
 ### En Windows (PowerShell)
 1. Abre una terminal de PowerShell.
-2. Si es la primera vez que ejecutas scripts locales en tu equipo, habilita la ejecución de scripts (solo es necesario hacerlo una vez):
+2. Si es la primera vez que se ejecutan scripts locales en el equipo, habilitar la ejecución de scripts (solo es necesario hacerlo una vez):
    ```powershell
    Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
