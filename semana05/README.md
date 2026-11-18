@@ -29,3 +29,4 @@ chmod +x auditoria_seguridad.sh
 
 # Archivo de muestra
 ./auditoria_seguridad.sh -m ../muestras_auth.log -u 5; echo "Código: $?"
+
