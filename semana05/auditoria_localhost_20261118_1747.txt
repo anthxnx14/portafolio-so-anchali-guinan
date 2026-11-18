@@ -1,0 +1,36 @@
+Auditoría de seguridad · localhost · 2026-11-18 17:47
+
+=== 1 · Llavero maestro ===
+Cuentas con UID 0:
+root
+Miembros de wheel: jguinan
+→ Sección 1: OK
+
+=== 2 · Puertas abiertas ===
+  *:3389                   (puerto 3389 ) → abierta a la red
+  *:9090                   (puerto 9090 ) → abierta a la red
+  0.0.0.0:22               (puerto 22   ) → abierta a la red
+  127.0.0.1:631            (puerto 631  ) → solo el equipo
+  [::1]:631                (puerto 631  ) → solo el equipo
+  [::]:22                  (puerto 22   ) → abierta a la red
+→ Sección 2: ALERTA
+
+=== 3 · Portero activo ===
+Estado de firewalld: active
+Zona por defecto: public
+→ Sección 3: OK
+
+=== 4 · Intentos fallidos (umbral: 5 por IP) ===
+Fuente: bitácora sshd (últimas 24 horas)
+No se registraron intentos fallidos.
+→ Sección 4: OK
+
+=== 5 · Veredicto ===
+  Sección 1: OK
+  Sección 2: ALERTA
+  Sección 3: OK
+  Sección 4: OK
+Total de alertas: 1
+Veredicto final: ALERTA (se requiere revisión)
+
+Informe guardado en: auditoria_localhost_20261118_1747.txt
