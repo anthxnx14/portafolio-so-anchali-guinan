@@ -30,3 +30,44 @@ chmod +x auditoria_seguridad.sh
 # Archivo de muestra
 ./auditoria_seguridad.sh -m ../muestras_auth.log -u 5; echo "Código: $?"
 
+
+```
+
+---
+
+## Windows - Auditoría de seguridad
+
+**Responsable:** Anthony Anchali
+
+### Descripción
+
+Se desarrolló un script en PowerShell que permite revisar cinco aspectos de seguridad: usuarios administradores, puertos abiertos, estado del firewall, intentos fallidos de autenticación y veredicto final.
+
+### Archivos
+
+- `auditoria_seguridad.ps1`: script de auditoría.
+- `auditoria_DESKTOP-TGCDG8F_20261120_1409.txt`: informe generado.
+
+### Ejecución
+
+Ejecutar en PowerShell desde la carpeta semana05:
+
+`.\auditoria_seguridad.ps1 -Muestra "C:\Users\Lenovo\Downloads\muestras_eventos_4625.csv" -Umbral 5`
+
+### Resultados
+
+| Sección | Estado |
+|---|---|
+| 1. Llavero maestro | OK |
+| 2. Puertas abiertas | OK |
+| 3. Portero activo | OK |
+| 4. Intentos fallidos | ALERTA |
+| 5. Veredicto final | ALERTA |
+
+**Código de salida:** 1
+
+La alerta se generó porque se detectaron 8 intentos fallidos desde la IP 45.83.1.20, superando el umbral de 5 intentos.
+
+**Uso de IA:** Se utilizó ChatGPT como apoyo para desarrollar, revisar y depurar el script.
+
+
